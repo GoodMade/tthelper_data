@@ -1,1 +1,238 @@
-
+{
+  "type": "taptop-enhancer-layer-export",
+  "version": 1,
+  "exportedAt": "2026-06-01T12:12:11.945Z",
+  "sourceUrl": "",
+  "layerName": "widget-kineskope",
+  "clipboardData": {
+    "verId": 8998271,
+    "designId": 77841516,
+    "copiedLayout": {
+      "tree": {
+        "version": "3.1.0",
+        "tags": {
+          "ih8g58yhc": {
+            "id": "ih8g58yhc",
+            "widgetName": "tt_embed",
+            "type": "tt_embed",
+            "className": "embed",
+            "classNameIds": [
+              "class_ik2rbpei1",
+              "class_igfsmprko"
+            ],
+            "children": [
+              "i5jd11pzm"
+            ],
+            "can": [
+              "SELECT",
+              "SET_EMBED_CODE"
+            ],
+            "dataAccess": 7,
+            "embedCode": "<style>\n/* Обертка для iframe, которую создает скрипт */\n[data-kineskope=\"iframe_wrap\"] {\n  position: relative; \n  width: 100%;\n  height: 100%;\n  z-index: 5; /* Выше дефолтной обложки при воспроизведении */\n}\n\n[data-kineskope=\"iframe_wrap\"] iframe {\n  object-fit: cover;\n  position: absolute; \n  width: 100%; \n  height: 100%; \n  top: 0; \n  left: 0;\n}\n\n[data-kineskope=\"cover\"] img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n}\n\n/* Изменение z-index вместо скрытия во избежание вспышек */\n[data-kineskope=\"cover\"].video-is-playing {\n  z-index: 1;\n}\n\n/* Кнопка Play */\n[data-kineskope=\"play\"] {\n  z-index: 100;\n}\n\n/* Кнопку скрываем сразу при клике */\n[data-kineskope=\"play\"].hidden {\n  opacity: 0 !important;\n  pointer-events: none !important;\n}\n\n/* --- СТИЛИ ПРЕЛОАДЕРА --- */\n[data-kineskope=\"loader\"] {\n  z-index: 20; \n  opacity: 0;\n  animation: kinescopeSpinner 1s ease-in-out infinite;\n}\n\n/* Показываем лоадер, добавляя класс */\n[data-kineskope=\"loader\"].is-loading {\n  opacity: 1;\n}\n\n@keyframes kinescopeSpinner {\n  to { transform: translate(-50%, -50%) rotate(360deg); }\n}\n</style>\n\n<script>\nconst isSafariLike = (\n  /^((?!chrome|android).)*safari/i.test(navigator.userAgent) ||\n  /iPad|iPhone|iPod/.test(navigator.userAgent) ||\n  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)\n);\n\nlet kinescopeApiPromise = null;\nlet kinescopeFactory = null;\n\nfunction loadKinescopeApi() {\n  if (kinescopeFactory) return Promise.resolve(kinescopeFactory);\n  if (kinescopeApiPromise) return kinescopeApiPromise;\n\n  kinescopeApiPromise = new Promise((resolve, reject) => {\n    window.onKinescopeIframeAPIReady = function(playerFactory) {\n      kinescopeFactory = playerFactory;\n      resolve(playerFactory);\n    };\n\n    const script = document.createElement('script');\n    script.src = 'https://player.kinescope.io/latest/iframe.player.js';\n    script.async = true;\n    script.onerror = reject;\n    document.head.appendChild(script);\n  });\n\n  return kinescopeApiPromise;\n}\n\nfunction getRawVideoUrl(embedParent) {\n  return embedParent.getAttribute('data-src');\n}\n\nfunction getApiVideoUrl(embedParent) {\n  const rawSrc = getRawVideoUrl(embedParent);\n  if (!rawSrc) return null;\n  return rawSrc.replace(/\\/embed/g, '').replace(/embed/g, '');\n}\n\nfunction getEmbedVideoUrl(embedParent, autoplay) {\n  const rawSrc = getRawVideoUrl(embedParent);\n  if (!rawSrc) return null;\n\n  let url = rawSrc.includes('/embed/')\n    ? rawSrc\n    : rawSrc.replace('https://kinescope.io/', 'https://kinescope.io/embed/');\n\n  if (autoplay) {\n    url += url.includes('?') ? '&autoplay=1' : '?autoplay=1';\n  }\n  return url;\n}\n\nfunction getOrCreateWrap(embedParent) {\n  let wrap = embedParent.querySelector('[data-kineskope=\"iframe_wrap\"]');\n  if (!wrap) {\n    wrap = document.createElement('div');\n    wrap.setAttribute('data-kineskope', 'iframe_wrap');\n    embedParent.appendChild(wrap);\n  }\n  return wrap;\n}\n\nfunction setIframePointer(card, enabled) {\n  const iframe = card.querySelector('[data-kineskope=\"iframe_wrap\"] iframe');\n  if (!iframe) return;\n  iframe.style.pointerEvents = enabled ? 'auto' : 'none';\n}\n\n// Сброс состояний (Пауза / Конец видео): возвращаем кнопку и обложку, гасим лоадер\nfunction showPlay(card) {\n  const playBtn = card.querySelector('[data-kineskope=\"play\"]');\n  const coverImg = card.querySelector('[data-kineskope=\"cover\"]');\n  const loader = card.querySelector('[data-kineskope=\"loader\"]');\n  card.dataset.videoState = 'paused';\n\n  if (playBtn) playBtn.classList.remove('hidden');\n  if (coverImg) coverImg.classList.remove('video-is-playing');\n  if (loader) loader.classList.remove('is-loading');\n  \n  setIframePointer(card, false);\n}\n\n// Видео начало успешно играть: прячем лоадер, опускаем обложку под плеер\nfunction hidePlay(card) {\n  const coverImg = card.querySelector('[data-kineskope=\"cover\"]');\n  const loader = card.querySelector('[data-kineskope=\"loader\"]');\n  card.dataset.videoState = 'playing';\n\n  if (coverImg) coverImg.classList.add('video-is-playing');\n  if (loader) loader.classList.remove('is-loading');\n  \n  setIframePointer(card, true);\n}\n\n// Safari / iOS iframe\nfunction createSafariIframe(card) {\n  const embedParent = card.querySelector('[data-kineskope=\"embed\"]');\n  if (!embedParent) return null;\n\n  const wrap = getOrCreateWrap(embedParent);\n  let iframe = wrap.querySelector('iframe');\n  if (iframe) return iframe;\n\n  const videoSrc = getEmbedVideoUrl(embedParent, true);\n  if (!videoSrc) return null;\n\n  iframe = document.createElement('iframe');\n  iframe.src = videoSrc;\n  iframe.setAttribute('allow', 'autoplay; fullscreen; picture-in-picture; encrypted-media; gyroscope; accelerometer; clipboard-write; screen-wake-lock');\n  iframe.setAttribute('frameborder', '0');\n  iframe.setAttribute('allowfullscreen', 'true');\n\n  iframe.addEventListener('load', () => {\n    setTimeout(() => hidePlay(card), 400);\n  });\n\n  wrap.appendChild(iframe);\n  return iframe;\n}\n\nfunction removeSafariIframe(card) {\n  const iframe = card.querySelector('[data-kineskope=\"iframe_wrap\"] iframe');\n  if (iframe) iframe.remove();\n  showPlay(card);\n}\n\n// Инициализация API плеера Kinescope\nfunction initApiCard(card) {\n  if (card.kPlayer) return Promise.resolve(card.kPlayer);\n  if (card.kPlayerPromise) return card.kPlayerPromise;\n\n  const embedParent = card.querySelector('[data-kineskope=\"embed\"]');\n  if (!embedParent) return Promise.resolve(null);\n\n  const videoSrc = getApiVideoUrl(embedParent);\n  if (!videoSrc) return Promise.resolve(null);\n\n  const wrap = getOrCreateWrap(embedParent);\n  const holder = document.createElement('div');\n  holder.id = 'kinescope-' + Math.random().toString(36).slice(2, 11);\n  wrap.insertBefore(holder, wrap.firstChild);\n\n  card.kPlayerPromise = loadKinescopeApi()\n    .then(playerFactory => {\n      return playerFactory.create(holder.id, {\n        url: videoSrc,\n        size: { width: '100%', height: '100%' },\n        behavior: { autoPlay: true, muted: false, playsInline: true },\n        ui: { controls: true, mainPlayButton: false }\n      });\n    })\n    .then(player => {\n      card.kPlayer = player;\n\n      player.on(player.Events.Playing, () => hidePlay(card));\n      player.on(player.Events.Pause, () => showPlay(card));\n      player.on(player.Events.Ended, () => showPlay(card));\n\n      return player;\n    })\n    .catch(err => {\n      card.kPlayerPromise = null;\n      showPlay(card);\n      console.error('Kinescope init error:', err);\n    });\n\n  return card.kPlayerPromise;\n}\n\nfunction playCard(card) {\n  videoObserver.observe(card);\n\n  // Сразу гасим кнопку Play и включаем прелоадер поверх обложки\n  const playBtn = card.querySelector('[data-kineskope=\"play\"]');\n  const loader = card.querySelector('[data-kineskope=\"loader\"]');\n  \n  if (playBtn) playBtn.classList.add('hidden');\n  if (loader) loader.classList.add('is-loading');\n\n  if (isSafariLike) {\n    createSafariIframe(card);\n    return;\n  }\n\n  initApiCard(card).then(player => {\n    if (player) {\n      player.play().catch(err => {\n        showPlay(card);\n        console.error('Kinescope play error:', err);\n      });\n    }\n  });\n}\n\nfunction pauseCard(card) {\n  if (isSafariLike) {\n    removeSafariIframe(card);\n    return;\n  }\n\n  const player = card.kPlayer;\n  if (player) {\n    player.pause().catch(err => console.error('Kinescope pause error:', err));\n  } else {\n    showPlay(card);\n  }\n}\n\n// Автопауза при скролле\nconst videoObserver = new IntersectionObserver((entries) => {\n  entries.forEach(entry => {\n    if (!entry.isIntersecting) {\n      pauseCard(entry.target);\n    }\n  });\n}, { threshold: 0.1 });\n\n// Глобальный клик\ndocument.addEventListener('click', function(e) {\n  const card = e.target.closest('[data-widget=\"kineskope\"]');\n  if (!card) return;\n\n  const isPlaying = card.dataset.videoState === 'playing';\n\n  if (isPlaying) {\n    if (!e.target.closest('[data-kineskope=\"iframe_wrap\"] iframe')) {\n      e.preventDefault();\n      e.stopPropagation();\n      pauseCard(card);\n    }\n  } else {\n    e.preventDefault();\n    playCard(card);\n  }\n});\n\n// Стартовая настройка\ndocument.addEventListener('DOMContentLoaded', function() {\n  document.querySelectorAll('[data-widget=\"kineskope\"]').forEach(card => {\n    card.dataset.videoState = 'paused';\n    setIframePointer(card, false);\n  });\n});\n</script>",
+            "name": "widget-kineskope"
+          },
+          "i5jd11pzm": {
+            "id": "i5jd11pzm",
+            "parent": "ih8g58yhc",
+            "className": "embed__stub",
+            "classNameIds": [
+              "class_iwz43i07c"
+            ],
+            "children": [
+              "ihwngvk74"
+            ],
+            "dataAccess": 7
+          },
+          "ihwngvk74": {
+            "id": "ihwngvk74",
+            "parent": "i5jd11pzm",
+            "className": "embed__hint",
+            "classNameIds": [
+              "class_iohyc8z41"
+            ],
+            "children": [
+              "i9i8mvkgc",
+              "ia2s0sb3f"
+            ],
+            "dataAccess": 7
+          },
+          "i9i8mvkgc": {
+            "id": "i9i8mvkgc",
+            "parent": "ihwngvk74",
+            "className": "embed__icon",
+            "classNameIds": [
+              "class_imlcd5d1r"
+            ],
+            "dataAccess": 7
+          },
+          "ia2s0sb3f": {
+            "id": "ia2s0sb3f",
+            "parent": "ihwngvk74",
+            "className": "embed__hint-text",
+            "classNameIds": [
+              "class_i6lrlwjsb"
+            ],
+            "children": [
+              "iu8sq9tz2",
+              "i4ir05po0",
+              "ilvnc9hhx"
+            ],
+            "dataAccess": 7
+          },
+          "iu8sq9tz2": {
+            "id": "iu8sq9tz2",
+            "parent": "ia2s0sb3f",
+            "className": "embed__hint-title",
+            "classNameIds": [
+              "class_i5tdxy0ag"
+            ],
+            "data": {
+              "text": {
+                "type": "HTML",
+                "value": "Пользовательский код"
+              }
+            },
+            "dataSource": "from_parent",
+            "dataAccess": 7
+          },
+          "i4ir05po0": {
+            "id": "i4ir05po0",
+            "parent": "ia2s0sb3f",
+            "className": "embed__hint-empty-note",
+            "classNameIds": [
+              "class_i2omrt1um"
+            ],
+            "data": {
+              "text": {
+                "type": "HTML",
+                "value": "Дважды щелкните, чтобы встроить пользовательский код"
+              }
+            },
+            "dataSource": "from_parent",
+            "dataAccess": 7
+          },
+          "ilvnc9hhx": {
+            "id": "ilvnc9hhx",
+            "parent": "ia2s0sb3f",
+            "className": "embed__hint-note",
+            "classNameIds": [
+              "class_i1izehyr8"
+            ],
+            "data": {
+              "text": {
+                "type": "HTML",
+                "value": "Этот код будет работать только на опубликованном/экспортированном проекте"
+              }
+            },
+            "dataSource": "from_parent",
+            "dataAccess": 7
+          }
+        },
+        "forms": {},
+        "root": "ih8g58yhc",
+        "dataCollection": {
+          "map": {}
+        }
+      },
+      "mainSelectorCollection": {
+        "map": {
+          "screen/.helper--d-none": {
+            "media": "screen",
+            "selectorText": ".helper--d-none",
+            "rules": {
+              "display": {
+                "name": "display",
+                "value": "none",
+                "isCustom": false,
+                "serializeValue": "none"
+              }
+            }
+          }
+        }
+      },
+      "designSelectorCollection": {
+        "map": {}
+      },
+      "cmSelectorCollection": {
+        "map": {}
+      },
+      "animationSelectorCollection": {
+        "map": {}
+      },
+      "mainClassNameCollection": {
+        "map": {
+          "class_ik2rbpei1": {
+            "id": "class_ik2rbpei1",
+            "value": "embed"
+          },
+          "class_iohyc8z41": {
+            "id": "class_iohyc8z41",
+            "value": "embed__hint"
+          },
+          "class_i2omrt1um": {
+            "id": "class_i2omrt1um",
+            "value": "embed__hint-empty-note"
+          },
+          "class_i1izehyr8": {
+            "id": "class_i1izehyr8",
+            "value": "embed__hint-note"
+          },
+          "class_i6lrlwjsb": {
+            "id": "class_i6lrlwjsb",
+            "value": "embed__hint-text"
+          },
+          "class_i5tdxy0ag": {
+            "id": "class_i5tdxy0ag",
+            "value": "embed__hint-title"
+          },
+          "class_imlcd5d1r": {
+            "id": "class_imlcd5d1r",
+            "value": "embed__icon"
+          },
+          "class_iwz43i07c": {
+            "id": "class_iwz43i07c",
+            "value": "embed__stub"
+          },
+          "class_igfsmprko": {
+            "id": "class_igfsmprko",
+            "value": "helper--d-none"
+          }
+        },
+        "countMap": {
+          "embed": 1,
+          "embed__hint": 1,
+          "embed__hint-empty-note": 1,
+          "embed__hint-note": 1,
+          "embed__hint-text": 1,
+          "embed__hint-title": 1,
+          "embed__icon": 1,
+          "embed__stub": 1,
+          "helper--d-none": 1
+        },
+        "sortMap": {
+          "class_ik2rbpei1": "class_iohyc8z41",
+          "class_iohyc8z41": "class_i2omrt1um",
+          "class_i2omrt1um": "class_i1izehyr8",
+          "class_i1izehyr8": "class_i6lrlwjsb",
+          "class_i6lrlwjsb": "class_i5tdxy0ag",
+          "class_i5tdxy0ag": "class_imlcd5d1r",
+          "class_imlcd5d1r": "class_iwz43i07c",
+          "class_iwz43i07c": "class_igfsmprko",
+          "class_igfsmprko": ""
+        },
+        "head": {
+          "id": "class_ik2rbpei1",
+          "value": "embed"
+        }
+      },
+      "designClassNameCollection": {
+        "map": {},
+        "countMap": {},
+        "sortMap": {}
+      }
+    },
+    "action": "copy",
+    "tagID": "ih8g58yhc_0",
+    "isElementInCollection": false
+  }
+}
