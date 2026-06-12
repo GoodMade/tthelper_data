@@ -1,7 +1,7 @@
 {
   "type": "taptop-enhancer-layer-export",
   "version": 1,
-  "exportedAt": "2026-06-12T09:14:59.697Z",
+  "exportedAt": "2026-06-12T10:09:52.857Z",
   "sourceUrl": "",
   "layerName": "th-faq-section",
   "clipboardData": {
@@ -11,48 +11,42 @@
       "tree": {
         "version": "3.1.0",
         "tags": {
-          "iua1hmzit": {
-            "id": "iua1hmzit",
+          "ixewoirgw": {
+            "id": "ixewoirgw",
             "widgetName": "div",
             "type": "div",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_in99k6t3z",
+              "class_ij08li7ft",
               "class_i73sitlar"
             ],
             "children": [
-              "iti6fell2"
+              "i3ii9i3xv"
             ],
             "can": [
               "SELECT",
               "INSERT"
             ],
-            "data": {
-              "custom-data-widget": {
-                "type": "STRING",
-                "value": "faq-accordion-images"
-              }
-            },
             "dataAccess": 7,
             "name": "th-faq-section"
           },
-          "iti6fell2": {
-            "id": "iti6fell2",
+          "i3ii9i3xv": {
+            "id": "i3ii9i3xv",
             "widgetName": "div",
             "type": "div",
-            "parent": "iua1hmzit",
+            "parent": "ixewoirgw",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ifwirfash",
+              "class_iemffpkkt",
               "class_i1jzmj94p"
             ],
             "children": [
-              "ibxbc30f7",
-              "ij9k2lhkz"
+              "irafeb84c",
+              "in0gtjb8d"
             ],
             "can": [
               "SELECT",
@@ -70,29 +64,33 @@
               "custom-data-duration": {
                 "type": "STRING",
                 "value": "6000"
+              },
+              "custom-data-widget": {
+                "type": "STRING",
+                "value": "faq-accordion-images"
               }
             },
             "dataSource": "from_parent",
             "dataAccess": 7,
             "name": "th-faq"
           },
-          "ibxbc30f7": {
-            "id": "ibxbc30f7",
+          "irafeb84c": {
+            "id": "irafeb84c",
             "widgetName": "div",
             "type": "div",
-            "parent": "iti6fell2",
+            "parent": "i3ii9i3xv",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ik8aqfja4",
+              "class_ihazkyz6b",
               "class_iv4tkq65x"
             ],
             "children": [
-              "ifdv1jasl",
-              "inx3xtslh",
-              "i0vn85du2",
-              "iy001r0rh"
+              "i4r5i35hh",
+              "iv4jishe9",
+              "i1vzz6goc",
+              "ie22pi5gc"
             ],
             "can": [
               "SELECT",
@@ -101,22 +99,22 @@
             "dataAccess": 7,
             "name": "th-faq__list"
           },
-          "ifdv1jasl": {
-            "id": "ifdv1jasl",
+          "i4r5i35hh": {
+            "id": "i4r5i35hh",
             "widgetName": "div",
             "type": "div",
-            "parent": "ibxbc30f7",
+            "parent": "irafeb84c",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_iu784b5fa",
+              "class_iv19g60gf",
               "class_i0xskx58h"
             ],
             "children": [
-              "i57lgdskc",
-              "ihgepeeto",
-              "i9zvtqpdx"
+              "ihwf0ll8q",
+              "iesv41i4v",
+              "ij4stk9bc"
             ],
             "can": [
               "SELECT",
@@ -132,16 +130,16 @@
             "dataAccess": 7,
             "name": "th-faq__item"
           },
-          "i57lgdskc": {
-            "id": "i57lgdskc",
+          "ihwf0ll8q": {
+            "id": "ihwf0ll8q",
             "widgetName": "div",
             "type": "div",
-            "parent": "ifdv1jasl",
+            "parent": "i4r5i35hh",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_i121j3tcp",
+              "class_i6r55kpkx",
               "class_iz37zk105k"
             ],
             "can": [
@@ -158,8 +156,8 @@
             "dataAccess": 7,
             "name": "th-faq__card-media"
           },
-          "ihgepeeto": {
-            "id": "ihgepeeto",
+          "iesv41i4v": {
+            "id": "iesv41i4v",
             "widgetName": "tt_link_universal",
             "widgetSettings": {
               "screen": {
@@ -174,18 +172,18 @@
               }
             },
             "type": "tt_link_block",
-            "parent": "ifdv1jasl",
+            "parent": "i4r5i35hh",
             "tagName": "a",
             "alias": "Link Block",
             "className": "link-block",
             "classNameIds": [
               "class_i20oken6g",
-              "class_itwz5regz",
+              "class_iwcp9jlwx",
               "class_iivp3nbb33"
             ],
             "children": [
-              "iwtqatf1h",
-              "i6lmt2bru"
+              "ihl3xcyet",
+              "iiaxxvr3k"
             ],
             "can": [
               "SELECT",
@@ -214,15 +212,15 @@
             "dataAccess": 7,
             "name": "th-faq__trigger"
           },
-          "iwtqatf1h": {
-            "id": "iwtqatf1h",
+          "ihl3xcyet": {
+            "id": "ihl3xcyet",
             "widgetName": "text",
             "type": "text",
-            "parent": "ihgepeeto",
+            "parent": "iesv41i4v",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_izqjzslng",
+              "class_il80d6xdg",
               "class_iamdosi4ad"
             ],
             "can": [
@@ -239,11 +237,11 @@
             "dataAccess": 7,
             "name": "th-faq__title"
           },
-          "i6lmt2bru": {
-            "id": "i6lmt2bru",
+          "iiaxxvr3k": {
+            "id": "iiaxxvr3k",
             "widgetName": "div",
             "type": "div",
-            "parent": "ihgepeeto",
+            "parent": "iesv41i4v",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -251,7 +249,7 @@
               "class_igkhl0hzqj"
             ],
             "children": [
-              "iob19m1o5"
+              "ivypeu8g2"
             ],
             "can": [
               "SELECT",
@@ -260,11 +258,11 @@
             "dataAccess": 7,
             "name": "th-faq__icon"
           },
-          "iob19m1o5": {
-            "id": "iob19m1o5",
+          "ivypeu8g2": {
+            "id": "ivypeu8g2",
             "widgetName": "tt_svg_icon",
             "type": "tt_svg_icon",
-            "parent": "i6lmt2bru",
+            "parent": "iiaxxvr3k",
             "tagName": "span",
             "alias": "svg icon",
             "className": "svg-icon",
@@ -286,20 +284,20 @@
             "dataAccess": 7,
             "name": "th-faq__icon__svg"
           },
-          "i9zvtqpdx": {
-            "id": "i9zvtqpdx",
+          "ij4stk9bc": {
+            "id": "ij4stk9bc",
             "widgetName": "div",
             "type": "div",
-            "parent": "ifdv1jasl",
+            "parent": "i4r5i35hh",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_iyct9bk8a",
+              "class_iosm2ulqy",
               "class_icu4t4swx0"
             ],
             "children": [
-              "igsplc6gq"
+              "iz9tb8nrm"
             ],
             "can": [
               "SELECT",
@@ -308,20 +306,20 @@
             "dataAccess": 7,
             "name": "th-faq__panel"
           },
-          "igsplc6gq": {
-            "id": "igsplc6gq",
+          "iz9tb8nrm": {
+            "id": "iz9tb8nrm",
             "widgetName": "div",
             "type": "div",
-            "parent": "i9zvtqpdx",
+            "parent": "ij4stk9bc",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ixx5w8gln",
+              "class_ihzg2lvvd",
               "class_ie862wlsk3"
             ],
             "children": [
-              "imq3loq7i"
+              "intxt56zo"
             ],
             "can": [
               "SELECT",
@@ -330,11 +328,11 @@
             "dataAccess": 7,
             "name": "th-faq__panel-inner"
           },
-          "imq3loq7i": {
-            "id": "imq3loq7i",
+          "intxt56zo": {
+            "id": "intxt56zo",
             "widgetName": "div",
             "type": "div",
-            "parent": "igsplc6gq",
+            "parent": "iz9tb8nrm",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -342,8 +340,8 @@
               "class_igucn7k3um"
             ],
             "children": [
-              "iuja0yuc1",
-              "ibhyi34xg"
+              "iiz7plcd3",
+              "iisv0f2j0"
             ],
             "can": [
               "SELECT",
@@ -352,15 +350,15 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "iuja0yuc1": {
-            "id": "iuja0yuc1",
+          "iiz7plcd3": {
+            "id": "iiz7plcd3",
             "widgetName": "text",
             "type": "text",
-            "parent": "imq3loq7i",
+            "parent": "intxt56zo",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_idwtvvwke"
+              "class_i5am7bln8"
             ],
             "can": [
               "SELECT",
@@ -376,20 +374,20 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "ibhyi34xg": {
-            "id": "ibhyi34xg",
+          "iisv0f2j0": {
+            "id": "iisv0f2j0",
             "widgetName": "div",
             "type": "div",
-            "parent": "imq3loq7i",
+            "parent": "intxt56zo",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ilp4crcxp",
+              "class_i5y3pr9es",
               "class_inw3hnzpo0"
             ],
             "children": [
-              "i9bgv6mu7"
+              "ivwj381r9"
             ],
             "can": [
               "SELECT",
@@ -409,11 +407,11 @@
             "dataAccess": 7,
             "name": "th-faq__progress"
           },
-          "i9bgv6mu7": {
-            "id": "i9bgv6mu7",
+          "ivwj381r9": {
+            "id": "ivwj381r9",
             "widgetName": "div",
             "type": "div",
-            "parent": "ibhyi34xg",
+            "parent": "iisv0f2j0",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -427,22 +425,22 @@
             "dataAccess": 7,
             "name": "th-faq__progress-bar"
           },
-          "inx3xtslh": {
-            "id": "inx3xtslh",
+          "iv4jishe9": {
+            "id": "iv4jishe9",
             "widgetName": "div",
             "type": "div",
-            "parent": "ibxbc30f7",
+            "parent": "irafeb84c",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ib98u3zsy",
+              "class_ildredrkr",
               "class_i0xskx58h"
             ],
             "children": [
-              "ik9h5uzma",
-              "i3unxt3ku",
-              "igur7pxux"
+              "i83i0beyz",
+              "i2pyd4rjt",
+              "igbxgv6ff"
             ],
             "can": [
               "SELECT",
@@ -458,16 +456,16 @@
             "dataAccess": 7,
             "name": "th-faq__item"
           },
-          "ik9h5uzma": {
-            "id": "ik9h5uzma",
+          "i83i0beyz": {
+            "id": "i83i0beyz",
             "widgetName": "div",
             "type": "div",
-            "parent": "inx3xtslh",
+            "parent": "iv4jishe9",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ibdr8zncw",
+              "class_iuej7mggb",
               "class_iz37zk105k"
             ],
             "can": [
@@ -484,8 +482,8 @@
             "dataAccess": 7,
             "name": "th-faq__card-media"
           },
-          "i3unxt3ku": {
-            "id": "i3unxt3ku",
+          "i2pyd4rjt": {
+            "id": "i2pyd4rjt",
             "widgetName": "tt_link_universal",
             "widgetSettings": {
               "screen": {
@@ -500,18 +498,18 @@
               }
             },
             "type": "tt_link_block",
-            "parent": "inx3xtslh",
+            "parent": "iv4jishe9",
             "tagName": "a",
             "alias": "Link Block",
             "className": "link-block",
             "classNameIds": [
               "class_i20oken6g",
-              "class_ihsz0fi59",
+              "class_iokmoz5jq",
               "class_iivp3nbb33"
             ],
             "children": [
-              "i6uhuuxxn",
-              "irnphhpii"
+              "iup876ale",
+              "iinp0xhhp"
             ],
             "can": [
               "SELECT",
@@ -540,15 +538,15 @@
             "dataAccess": 7,
             "name": "th-faq__trigger"
           },
-          "i6uhuuxxn": {
-            "id": "i6uhuuxxn",
+          "iup876ale": {
+            "id": "iup876ale",
             "widgetName": "text",
             "type": "text",
-            "parent": "i3unxt3ku",
+            "parent": "i2pyd4rjt",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_ijo4wq1tq",
+              "class_ihar955sy",
               "class_iamdosi4ad"
             ],
             "can": [
@@ -565,11 +563,11 @@
             "dataAccess": 7,
             "name": "th-faq__title"
           },
-          "irnphhpii": {
-            "id": "irnphhpii",
+          "iinp0xhhp": {
+            "id": "iinp0xhhp",
             "widgetName": "div",
             "type": "div",
-            "parent": "i3unxt3ku",
+            "parent": "i2pyd4rjt",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -577,7 +575,7 @@
               "class_igkhl0hzqj"
             ],
             "children": [
-              "ixzvqvs87"
+              "i4fxaa631"
             ],
             "can": [
               "SELECT",
@@ -586,11 +584,11 @@
             "dataAccess": 7,
             "name": "th-faq__icon"
           },
-          "ixzvqvs87": {
-            "id": "ixzvqvs87",
+          "i4fxaa631": {
+            "id": "i4fxaa631",
             "widgetName": "tt_svg_icon",
             "type": "tt_svg_icon",
-            "parent": "irnphhpii",
+            "parent": "iinp0xhhp",
             "tagName": "span",
             "alias": "svg icon",
             "className": "svg-icon",
@@ -612,20 +610,20 @@
             "dataAccess": 7,
             "name": "th-faq__icon__svg"
           },
-          "igur7pxux": {
-            "id": "igur7pxux",
+          "igbxgv6ff": {
+            "id": "igbxgv6ff",
             "widgetName": "div",
             "type": "div",
-            "parent": "inx3xtslh",
+            "parent": "iv4jishe9",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_iwit197fh",
+              "class_i5fh0mij3",
               "class_icu4t4swx0"
             ],
             "children": [
-              "ioxucoy25"
+              "i95nd6e82"
             ],
             "can": [
               "SELECT",
@@ -634,20 +632,20 @@
             "dataAccess": 7,
             "name": "th-faq__panel"
           },
-          "ioxucoy25": {
-            "id": "ioxucoy25",
+          "i95nd6e82": {
+            "id": "i95nd6e82",
             "widgetName": "div",
             "type": "div",
-            "parent": "igur7pxux",
+            "parent": "igbxgv6ff",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ixj78qp7y",
+              "class_ixe3nqj58",
               "class_ie862wlsk3"
             ],
             "children": [
-              "i1xaztk4g"
+              "ic9tcgzgq"
             ],
             "can": [
               "SELECT",
@@ -656,11 +654,11 @@
             "dataAccess": 7,
             "name": "th-faq__panel-inner"
           },
-          "i1xaztk4g": {
-            "id": "i1xaztk4g",
+          "ic9tcgzgq": {
+            "id": "ic9tcgzgq",
             "widgetName": "div",
             "type": "div",
-            "parent": "ioxucoy25",
+            "parent": "i95nd6e82",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -668,8 +666,8 @@
               "class_igucn7k3um"
             ],
             "children": [
-              "idunkodnp",
-              "ietyux307"
+              "isybrxxs6",
+              "iu6berx5y"
             ],
             "can": [
               "SELECT",
@@ -678,15 +676,15 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "idunkodnp": {
-            "id": "idunkodnp",
+          "isybrxxs6": {
+            "id": "isybrxxs6",
             "widgetName": "text",
             "type": "text",
-            "parent": "i1xaztk4g",
+            "parent": "ic9tcgzgq",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_ilznys91k"
+              "class_iphdc8n9a"
             ],
             "can": [
               "SELECT",
@@ -702,20 +700,20 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "ietyux307": {
-            "id": "ietyux307",
+          "iu6berx5y": {
+            "id": "iu6berx5y",
             "widgetName": "div",
             "type": "div",
-            "parent": "i1xaztk4g",
+            "parent": "ic9tcgzgq",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_i1mdrm0r8",
+              "class_ib0tcwpg6",
               "class_inw3hnzpo0"
             ],
             "children": [
-              "iad4tpajr"
+              "iz81syetp"
             ],
             "can": [
               "SELECT",
@@ -735,11 +733,11 @@
             "dataAccess": 7,
             "name": "th-faq__progress"
           },
-          "iad4tpajr": {
-            "id": "iad4tpajr",
+          "iz81syetp": {
+            "id": "iz81syetp",
             "widgetName": "div",
             "type": "div",
-            "parent": "ietyux307",
+            "parent": "iu6berx5y",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -753,22 +751,22 @@
             "dataAccess": 7,
             "name": "th-faq__progress-bar"
           },
-          "i0vn85du2": {
-            "id": "i0vn85du2",
+          "i1vzz6goc": {
+            "id": "i1vzz6goc",
             "widgetName": "div",
             "type": "div",
-            "parent": "ibxbc30f7",
+            "parent": "irafeb84c",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_irz3p8s52",
+              "class_iri1hf525",
               "class_i0xskx58h"
             ],
             "children": [
-              "i8eol2w8w",
-              "i4db1r7gh",
-              "iejjmin0a"
+              "i6v1d31eu",
+              "igunptdnq",
+              "iwxtat62v"
             ],
             "can": [
               "SELECT",
@@ -784,16 +782,16 @@
             "dataAccess": 7,
             "name": "th-faq__item"
           },
-          "i8eol2w8w": {
-            "id": "i8eol2w8w",
+          "i6v1d31eu": {
+            "id": "i6v1d31eu",
             "widgetName": "div",
             "type": "div",
-            "parent": "i0vn85du2",
+            "parent": "i1vzz6goc",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_i6h6h8xz5",
+              "class_izvs2qxtg",
               "class_iz37zk105k"
             ],
             "can": [
@@ -810,8 +808,8 @@
             "dataAccess": 7,
             "name": "th-faq__card-media"
           },
-          "i4db1r7gh": {
-            "id": "i4db1r7gh",
+          "igunptdnq": {
+            "id": "igunptdnq",
             "widgetName": "tt_link_universal",
             "widgetSettings": {
               "screen": {
@@ -826,18 +824,18 @@
               }
             },
             "type": "tt_link_block",
-            "parent": "i0vn85du2",
+            "parent": "i1vzz6goc",
             "tagName": "a",
             "alias": "Link Block",
             "className": "link-block",
             "classNameIds": [
               "class_i20oken6g",
-              "class_iyx1nvyqv",
+              "class_izb6bq4i5",
               "class_iivp3nbb33"
             ],
             "children": [
-              "ibfdjicw0",
-              "icjnld0s3"
+              "iliier9bu",
+              "im4sch213"
             ],
             "can": [
               "SELECT",
@@ -866,15 +864,15 @@
             "dataAccess": 7,
             "name": "th-faq__trigger"
           },
-          "ibfdjicw0": {
-            "id": "ibfdjicw0",
+          "iliier9bu": {
+            "id": "iliier9bu",
             "widgetName": "text",
             "type": "text",
-            "parent": "i4db1r7gh",
+            "parent": "igunptdnq",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_iwxvkipl4",
+              "class_idsvapjib",
               "class_iamdosi4ad"
             ],
             "can": [
@@ -891,11 +889,11 @@
             "dataAccess": 7,
             "name": "th-faq__title"
           },
-          "icjnld0s3": {
-            "id": "icjnld0s3",
+          "im4sch213": {
+            "id": "im4sch213",
             "widgetName": "div",
             "type": "div",
-            "parent": "i4db1r7gh",
+            "parent": "igunptdnq",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -903,7 +901,7 @@
               "class_igkhl0hzqj"
             ],
             "children": [
-              "ifm8i9fc2"
+              "iib90cebn"
             ],
             "can": [
               "SELECT",
@@ -912,11 +910,11 @@
             "dataAccess": 7,
             "name": "th-faq__icon"
           },
-          "ifm8i9fc2": {
-            "id": "ifm8i9fc2",
+          "iib90cebn": {
+            "id": "iib90cebn",
             "widgetName": "tt_svg_icon",
             "type": "tt_svg_icon",
-            "parent": "icjnld0s3",
+            "parent": "im4sch213",
             "tagName": "span",
             "alias": "svg icon",
             "className": "svg-icon",
@@ -938,20 +936,20 @@
             "dataAccess": 7,
             "name": "th-faq__icon__svg"
           },
-          "iejjmin0a": {
-            "id": "iejjmin0a",
+          "iwxtat62v": {
+            "id": "iwxtat62v",
             "widgetName": "div",
             "type": "div",
-            "parent": "i0vn85du2",
+            "parent": "i1vzz6goc",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_im6fjhaiy",
+              "class_i1mnju3z8",
               "class_icu4t4swx0"
             ],
             "children": [
-              "i5hbluqb8"
+              "ikfc0e89x"
             ],
             "can": [
               "SELECT",
@@ -960,20 +958,20 @@
             "dataAccess": 7,
             "name": "th-faq__panel"
           },
-          "i5hbluqb8": {
-            "id": "i5hbluqb8",
+          "ikfc0e89x": {
+            "id": "ikfc0e89x",
             "widgetName": "div",
             "type": "div",
-            "parent": "iejjmin0a",
+            "parent": "iwxtat62v",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ilr1lplwe",
+              "class_irhm47cxa",
               "class_ie862wlsk3"
             ],
             "children": [
-              "idv06xtkx"
+              "i57fospgj"
             ],
             "can": [
               "SELECT",
@@ -982,11 +980,11 @@
             "dataAccess": 7,
             "name": "th-faq__panel-inner"
           },
-          "idv06xtkx": {
-            "id": "idv06xtkx",
+          "i57fospgj": {
+            "id": "i57fospgj",
             "widgetName": "div",
             "type": "div",
-            "parent": "i5hbluqb8",
+            "parent": "ikfc0e89x",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -994,8 +992,8 @@
               "class_igucn7k3um"
             ],
             "children": [
-              "ihr4jhfxn",
-              "ikkwchgd8"
+              "icirjjsic",
+              "iqp1yheog"
             ],
             "can": [
               "SELECT",
@@ -1004,15 +1002,15 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "ihr4jhfxn": {
-            "id": "ihr4jhfxn",
+          "icirjjsic": {
+            "id": "icirjjsic",
             "widgetName": "text",
             "type": "text",
-            "parent": "idv06xtkx",
+            "parent": "i57fospgj",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_irgqvtfoh"
+              "class_i9oy0unu2"
             ],
             "can": [
               "SELECT",
@@ -1028,20 +1026,20 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "ikkwchgd8": {
-            "id": "ikkwchgd8",
+          "iqp1yheog": {
+            "id": "iqp1yheog",
             "widgetName": "div",
             "type": "div",
-            "parent": "idv06xtkx",
+            "parent": "i57fospgj",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_iyprbt6ce",
+              "class_isnoumnj8",
               "class_inw3hnzpo0"
             ],
             "children": [
-              "iixkgcupo"
+              "ioo3fe60s"
             ],
             "can": [
               "SELECT",
@@ -1061,11 +1059,11 @@
             "dataAccess": 7,
             "name": "th-faq__progress"
           },
-          "iixkgcupo": {
-            "id": "iixkgcupo",
+          "ioo3fe60s": {
+            "id": "ioo3fe60s",
             "widgetName": "div",
             "type": "div",
-            "parent": "ikkwchgd8",
+            "parent": "iqp1yheog",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1079,22 +1077,22 @@
             "dataAccess": 7,
             "name": "th-faq__progress-bar"
           },
-          "iy001r0rh": {
-            "id": "iy001r0rh",
+          "ie22pi5gc": {
+            "id": "ie22pi5gc",
             "widgetName": "div",
             "type": "div",
-            "parent": "ibxbc30f7",
+            "parent": "irafeb84c",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_idlu6839j",
+              "class_irrdy042l",
               "class_i0xskx58h"
             ],
             "children": [
-              "invvndfkw",
-              "isy9c6r8t",
-              "il66112rp"
+              "ilryb9ji1",
+              "ic2i76qi8",
+              "i92hy5erv"
             ],
             "can": [
               "SELECT",
@@ -1110,16 +1108,16 @@
             "dataAccess": 7,
             "name": "th-faq__item"
           },
-          "invvndfkw": {
-            "id": "invvndfkw",
+          "ilryb9ji1": {
+            "id": "ilryb9ji1",
             "widgetName": "div",
             "type": "div",
-            "parent": "iy001r0rh",
+            "parent": "ie22pi5gc",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_izl67tl0h",
+              "class_iiw86yupv",
               "class_iz37zk105k"
             ],
             "can": [
@@ -1136,8 +1134,8 @@
             "dataAccess": 7,
             "name": "th-faq__card-media"
           },
-          "isy9c6r8t": {
-            "id": "isy9c6r8t",
+          "ic2i76qi8": {
+            "id": "ic2i76qi8",
             "widgetName": "tt_link_universal",
             "widgetSettings": {
               "screen": {
@@ -1152,18 +1150,18 @@
               }
             },
             "type": "tt_link_block",
-            "parent": "iy001r0rh",
+            "parent": "ie22pi5gc",
             "tagName": "a",
             "alias": "Link Block",
             "className": "link-block",
             "classNameIds": [
               "class_i20oken6g",
-              "class_iaouodhi9",
+              "class_ioj6y54tc",
               "class_iivp3nbb33"
             ],
             "children": [
-              "i8vrexbn5",
-              "i1jap2zj2"
+              "i3t4lwnan",
+              "iule6c5q5"
             ],
             "can": [
               "SELECT",
@@ -1192,15 +1190,15 @@
             "dataAccess": 7,
             "name": "th-faq__trigger"
           },
-          "i8vrexbn5": {
-            "id": "i8vrexbn5",
+          "i3t4lwnan": {
+            "id": "i3t4lwnan",
             "widgetName": "text",
             "type": "text",
-            "parent": "isy9c6r8t",
+            "parent": "ic2i76qi8",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_i4mfur8xu",
+              "class_ioc8r1ztt",
               "class_iamdosi4ad"
             ],
             "can": [
@@ -1217,11 +1215,11 @@
             "dataAccess": 7,
             "name": "th-faq__title"
           },
-          "i1jap2zj2": {
-            "id": "i1jap2zj2",
+          "iule6c5q5": {
+            "id": "iule6c5q5",
             "widgetName": "div",
             "type": "div",
-            "parent": "isy9c6r8t",
+            "parent": "ic2i76qi8",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1229,7 +1227,7 @@
               "class_igkhl0hzqj"
             ],
             "children": [
-              "iiphqju3k"
+              "ipovjwt11"
             ],
             "can": [
               "SELECT",
@@ -1238,11 +1236,11 @@
             "dataAccess": 7,
             "name": "th-faq__icon"
           },
-          "iiphqju3k": {
-            "id": "iiphqju3k",
+          "ipovjwt11": {
+            "id": "ipovjwt11",
             "widgetName": "tt_svg_icon",
             "type": "tt_svg_icon",
-            "parent": "i1jap2zj2",
+            "parent": "iule6c5q5",
             "tagName": "span",
             "alias": "svg icon",
             "className": "svg-icon",
@@ -1264,20 +1262,20 @@
             "dataAccess": 7,
             "name": "th-faq__icon__svg"
           },
-          "il66112rp": {
-            "id": "il66112rp",
+          "i92hy5erv": {
+            "id": "i92hy5erv",
             "widgetName": "div",
             "type": "div",
-            "parent": "iy001r0rh",
+            "parent": "ie22pi5gc",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_iqpjcot7o",
+              "class_ivnqahvwo",
               "class_icu4t4swx0"
             ],
             "children": [
-              "icfvrb5i3"
+              "idu5hvfzy"
             ],
             "can": [
               "SELECT",
@@ -1286,20 +1284,20 @@
             "dataAccess": 7,
             "name": "th-faq__panel"
           },
-          "icfvrb5i3": {
-            "id": "icfvrb5i3",
+          "idu5hvfzy": {
+            "id": "idu5hvfzy",
             "widgetName": "div",
             "type": "div",
-            "parent": "il66112rp",
+            "parent": "i92hy5erv",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_itgmh3pld",
+              "class_i1c6vvxwu",
               "class_ie862wlsk3"
             ],
             "children": [
-              "iccs7qs7c"
+              "ih8a7z3f0"
             ],
             "can": [
               "SELECT",
@@ -1308,11 +1306,11 @@
             "dataAccess": 7,
             "name": "th-faq__panel-inner"
           },
-          "iccs7qs7c": {
-            "id": "iccs7qs7c",
+          "ih8a7z3f0": {
+            "id": "ih8a7z3f0",
             "widgetName": "div",
             "type": "div",
-            "parent": "icfvrb5i3",
+            "parent": "idu5hvfzy",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1320,8 +1318,8 @@
               "class_igucn7k3um"
             ],
             "children": [
-              "iacwmtddm",
-              "ib32pkatr"
+              "i299yes2i",
+              "ihxb89gqv"
             ],
             "can": [
               "SELECT",
@@ -1330,15 +1328,15 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "iacwmtddm": {
-            "id": "iacwmtddm",
+          "i299yes2i": {
+            "id": "i299yes2i",
             "widgetName": "text",
             "type": "text",
-            "parent": "iccs7qs7c",
+            "parent": "ih8a7z3f0",
             "className": "text",
             "classNameIds": [
               "class_ie0vbwqdy",
-              "class_ifogu95fw"
+              "class_i7evvwzqa"
             ],
             "can": [
               "SELECT",
@@ -1354,20 +1352,20 @@
             "dataAccess": 7,
             "name": "th-faq__body"
           },
-          "ib32pkatr": {
-            "id": "ib32pkatr",
+          "ihxb89gqv": {
+            "id": "ihxb89gqv",
             "widgetName": "div",
             "type": "div",
-            "parent": "iccs7qs7c",
+            "parent": "ih8a7z3f0",
             "alias": "div",
             "className": "div",
             "classNameIds": [
               "class_inijb3u85",
-              "class_ijwsv9x06",
+              "class_iu3zlgusv",
               "class_inw3hnzpo0"
             ],
             "children": [
-              "icu69tyf6"
+              "iq9rpstn3"
             ],
             "can": [
               "SELECT",
@@ -1387,11 +1385,11 @@
             "dataAccess": 7,
             "name": "th-faq__progress"
           },
-          "icu69tyf6": {
-            "id": "icu69tyf6",
+          "iq9rpstn3": {
+            "id": "iq9rpstn3",
             "widgetName": "div",
             "type": "div",
-            "parent": "ib32pkatr",
+            "parent": "ihxb89gqv",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1405,11 +1403,11 @@
             "dataAccess": 7,
             "name": "th-faq__progress-bar"
           },
-          "ij9k2lhkz": {
-            "id": "ij9k2lhkz",
+          "in0gtjb8d": {
+            "id": "in0gtjb8d",
             "widgetName": "div",
             "type": "div",
-            "parent": "iti6fell2",
+            "parent": "i3ii9i3xv",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1417,7 +1415,7 @@
               "class_i4c42t2xjw"
             ],
             "children": [
-              "ig45pqrzv"
+              "iqsdgr2yz"
             ],
             "can": [
               "SELECT",
@@ -1432,11 +1430,11 @@
             "dataAccess": 7,
             "name": "th-faq__media"
           },
-          "ig45pqrzv": {
-            "id": "ig45pqrzv",
+          "iqsdgr2yz": {
+            "id": "iqsdgr2yz",
             "widgetName": "div",
             "type": "div",
-            "parent": "ij9k2lhkz",
+            "parent": "in0gtjb8d",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1444,10 +1442,10 @@
               "class_ibybusugro"
             ],
             "children": [
-              "i5xvu5k8e",
-              "i5r8biluo",
-              "i2fppenwg",
-              "im9nyg2uw"
+              "ioe54yphs",
+              "ifm495wlg",
+              "ibpw5t0m0",
+              "iyhbhhfss"
             ],
             "can": [
               "SELECT",
@@ -1462,11 +1460,11 @@
             "dataAccess": 7,
             "name": "th-faq__stage"
           },
-          "i5xvu5k8e": {
-            "id": "i5xvu5k8e",
+          "ioe54yphs": {
+            "id": "ioe54yphs",
             "widgetName": "div",
             "type": "div",
-            "parent": "ig45pqrzv",
+            "parent": "iqsdgr2yz",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1474,7 +1472,7 @@
               "class_ijyuqrs5f"
             ],
             "children": [
-              "ie6m3pm1i"
+              "in6sw25pb"
             ],
             "can": [
               "SELECT",
@@ -1489,8 +1487,8 @@
             "dataAccess": 7,
             "name": "th-faq__image"
           },
-          "ie6m3pm1i": {
-            "id": "ie6m3pm1i",
+          "in6sw25pb": {
+            "id": "in6sw25pb",
             "widgetName": "tt_image",
             "widgetSettings": {
               "screen": {
@@ -1499,7 +1497,7 @@
               }
             },
             "type": "tt_image",
-            "parent": "i5xvu5k8e",
+            "parent": "ioe54yphs",
             "alias": "Image",
             "className": "image",
             "classNameIds": [
@@ -1507,7 +1505,7 @@
               "class_ikltpqhls"
             ],
             "children": [
-              "it9nzncl7"
+              "ihkrr6q4q"
             ],
             "can": [
               "SELECT",
@@ -1524,8 +1522,8 @@
             "dataAccess": 7,
             "name": "th-faq__img"
           },
-          "it9nzncl7": {
-            "id": "it9nzncl7",
+          "ihkrr6q4q": {
+            "id": "ihkrr6q4q",
             "widgetName": "image__img",
             "widgetExportSettings": {
               "image_params": {
@@ -1534,7 +1532,7 @@
                 "method": "resize"
               }
             },
-            "parent": "ie6m3pm1i",
+            "parent": "in6sw25pb",
             "tagName": "img",
             "className": "image__img",
             "classNameIds": [
@@ -1566,11 +1564,11 @@
             "dataSource": "from_parent",
             "dataAccess": 7
           },
-          "i5r8biluo": {
-            "id": "i5r8biluo",
+          "ifm495wlg": {
+            "id": "ifm495wlg",
             "widgetName": "div",
             "type": "div",
-            "parent": "ig45pqrzv",
+            "parent": "iqsdgr2yz",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1578,7 +1576,7 @@
               "class_ijyuqrs5f"
             ],
             "children": [
-              "ihmmvowph"
+              "ir9pitkx4"
             ],
             "can": [
               "SELECT",
@@ -1593,8 +1591,8 @@
             "dataAccess": 7,
             "name": "th-faq__image"
           },
-          "ihmmvowph": {
-            "id": "ihmmvowph",
+          "ir9pitkx4": {
+            "id": "ir9pitkx4",
             "widgetName": "tt_image",
             "widgetSettings": {
               "screen": {
@@ -1603,7 +1601,7 @@
               }
             },
             "type": "tt_image",
-            "parent": "i5r8biluo",
+            "parent": "ifm495wlg",
             "alias": "Image",
             "className": "image",
             "classNameIds": [
@@ -1611,7 +1609,7 @@
               "class_ikltpqhls"
             ],
             "children": [
-              "ins1ntlp6"
+              "ivhx2cu9l"
             ],
             "can": [
               "SELECT",
@@ -1628,8 +1626,8 @@
             "dataAccess": 7,
             "name": "th-faq__img"
           },
-          "ins1ntlp6": {
-            "id": "ins1ntlp6",
+          "ivhx2cu9l": {
+            "id": "ivhx2cu9l",
             "widgetName": "image__img",
             "widgetExportSettings": {
               "image_params": {
@@ -1638,7 +1636,7 @@
                 "method": "resize"
               }
             },
-            "parent": "ihmmvowph",
+            "parent": "ir9pitkx4",
             "tagName": "img",
             "className": "image__img",
             "classNameIds": [
@@ -1670,11 +1668,11 @@
             "dataSource": "from_parent",
             "dataAccess": 7
           },
-          "i2fppenwg": {
-            "id": "i2fppenwg",
+          "ibpw5t0m0": {
+            "id": "ibpw5t0m0",
             "widgetName": "div",
             "type": "div",
-            "parent": "ig45pqrzv",
+            "parent": "iqsdgr2yz",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1682,7 +1680,7 @@
               "class_ijyuqrs5f"
             ],
             "children": [
-              "ixg41ryjl"
+              "i4hv6ehx3"
             ],
             "can": [
               "SELECT",
@@ -1697,8 +1695,8 @@
             "dataAccess": 7,
             "name": "th-faq__image"
           },
-          "ixg41ryjl": {
-            "id": "ixg41ryjl",
+          "i4hv6ehx3": {
+            "id": "i4hv6ehx3",
             "widgetName": "tt_image",
             "widgetSettings": {
               "screen": {
@@ -1707,7 +1705,7 @@
               }
             },
             "type": "tt_image",
-            "parent": "i2fppenwg",
+            "parent": "ibpw5t0m0",
             "alias": "Image",
             "className": "image",
             "classNameIds": [
@@ -1715,7 +1713,7 @@
               "class_ikltpqhls"
             ],
             "children": [
-              "ilibh3gwj"
+              "iuc4ix777"
             ],
             "can": [
               "SELECT",
@@ -1732,8 +1730,8 @@
             "dataAccess": 7,
             "name": "th-faq__img"
           },
-          "ilibh3gwj": {
-            "id": "ilibh3gwj",
+          "iuc4ix777": {
+            "id": "iuc4ix777",
             "widgetName": "image__img",
             "widgetExportSettings": {
               "image_params": {
@@ -1742,7 +1740,7 @@
                 "method": "resize"
               }
             },
-            "parent": "ixg41ryjl",
+            "parent": "i4hv6ehx3",
             "tagName": "img",
             "className": "image__img",
             "classNameIds": [
@@ -1774,11 +1772,11 @@
             "dataSource": "from_parent",
             "dataAccess": 7
           },
-          "im9nyg2uw": {
-            "id": "im9nyg2uw",
+          "iyhbhhfss": {
+            "id": "iyhbhhfss",
             "widgetName": "div",
             "type": "div",
-            "parent": "ig45pqrzv",
+            "parent": "iqsdgr2yz",
             "alias": "div",
             "className": "div",
             "classNameIds": [
@@ -1786,7 +1784,7 @@
               "class_ijyuqrs5f"
             ],
             "children": [
-              "idw9kglb6"
+              "ipiyn9voo"
             ],
             "can": [
               "SELECT",
@@ -1801,8 +1799,8 @@
             "dataAccess": 7,
             "name": "th-faq__image"
           },
-          "idw9kglb6": {
-            "id": "idw9kglb6",
+          "ipiyn9voo": {
+            "id": "ipiyn9voo",
             "widgetName": "tt_image",
             "widgetSettings": {
               "screen": {
@@ -1811,7 +1809,7 @@
               }
             },
             "type": "tt_image",
-            "parent": "im9nyg2uw",
+            "parent": "iyhbhhfss",
             "alias": "Image",
             "className": "image",
             "classNameIds": [
@@ -1819,7 +1817,7 @@
               "class_ikltpqhls"
             ],
             "children": [
-              "i2yl7o049"
+              "i7vuxjmlg"
             ],
             "can": [
               "SELECT",
@@ -1836,8 +1834,8 @@
             "dataAccess": 7,
             "name": "th-faq__img"
           },
-          "i2yl7o049": {
-            "id": "i2yl7o049",
+          "i7vuxjmlg": {
+            "id": "i7vuxjmlg",
             "widgetName": "image__img",
             "widgetExportSettings": {
               "image_params": {
@@ -1846,7 +1844,7 @@
                 "method": "resize"
               }
             },
-            "parent": "idw9kglb6",
+            "parent": "ipiyn9voo",
             "tagName": "img",
             "className": "image__img",
             "classNameIds": [
@@ -1880,7 +1878,7 @@
           }
         },
         "forms": {},
-        "root": "iua1hmzit",
+        "root": "ixewoirgw",
         "dataCollection": {
           "map": {}
         }
@@ -2400,6 +2398,38 @@
                     "value": "scroll"
                   }
                 ]
+              },
+              "padding-left": {
+                "name": "padding-left",
+                "value": "10px",
+                "isCustom": false,
+                "serializeValue": "10px",
+                "number": 10,
+                "unit": "px"
+              },
+              "padding-right": {
+                "name": "padding-right",
+                "value": "10px",
+                "isCustom": false,
+                "serializeValue": "10px",
+                "number": 10,
+                "unit": "px"
+              },
+              "padding-top": {
+                "name": "padding-top",
+                "value": "10px",
+                "isCustom": false,
+                "serializeValue": "10px",
+                "number": 10,
+                "unit": "px"
+              },
+              "padding-bottom": {
+                "name": "padding-bottom",
+                "value": "10px",
+                "isCustom": false,
+                "serializeValue": "10px",
+                "number": 10,
+                "unit": "px"
               }
             }
           },
@@ -3128,14 +3158,6 @@
                 "y": 50,
                 "yUnit": "px"
               },
-              "min-height": {
-                "name": "min-height",
-                "value": "420px",
-                "isCustom": false,
-                "serializeValue": "420px",
-                "number": 420,
-                "unit": "px"
-              },
               "overflow-x": {
                 "name": "overflow-x",
                 "value": "hidden",
@@ -3191,6 +3213,14 @@
                 "serializeValue": "22px",
                 "number": 22,
                 "unit": "px"
+              },
+              "height": {
+                "name": "height",
+                "value": "300px",
+                "isCustom": false,
+                "serializeValue": "300px",
+                "number": 300,
+                "unit": "px"
               }
             }
           },
@@ -3243,9 +3273,9 @@
             "rules": {
               "background-color": {
                 "name": "background-color",
-                "value": "rgba(231, 201, 72, 1)",
+                "value": "rgb(231, 201, 72)",
                 "isCustom": false,
-                "serializeValue": "rgba(231, 201, 72, 1)",
+                "serializeValue": "rgb(231, 201, 72)",
                 "disabled": false
               },
               "height": {
@@ -3262,24 +3292,24 @@
       },
       "designSelectorCollection": {
         "map": {
-          "screen/.div--u-iti6fell2": {
+          "screen/.div--u-i3ii9i3xv": {
             "media": "screen",
-            "selectorText": ".div--u-iti6fell2",
+            "selectorText": ".div--u-i3ii9i3xv",
             "rules": {}
           },
-          "screen/.div--u-ibxbc30f7": {
+          "screen/.div--u-irafeb84c": {
             "media": "screen",
-            "selectorText": ".div--u-ibxbc30f7",
+            "selectorText": ".div--u-irafeb84c",
             "rules": {}
           },
-          "screen/.div--u-ifdv1jasl": {
+          "screen/.div--u-i4r5i35hh": {
             "media": "screen",
-            "selectorText": ".div--u-ifdv1jasl",
+            "selectorText": ".div--u-i4r5i35hh",
             "rules": {}
           },
-          "screen/.div--u-iua1hmzit": {
+          "screen/.div--u-ixewoirgw": {
             "media": "screen",
-            "selectorText": ".div--u-iua1hmzit",
+            "selectorText": ".div--u-ixewoirgw",
             "rules": {
               "padding-top": {
                 "name": "padding-top",
@@ -3299,44 +3329,44 @@
               }
             }
           },
-          "screen/.div--u-inx3xtslh": {
+          "screen/.div--u-iv4jishe9": {
             "media": "screen",
-            "selectorText": ".div--u-inx3xtslh",
+            "selectorText": ".div--u-iv4jishe9",
             "rules": {}
           },
-          "screen/.div--u-i0vn85du2": {
+          "screen/.div--u-i1vzz6goc": {
             "media": "screen",
-            "selectorText": ".div--u-i0vn85du2",
+            "selectorText": ".div--u-i1vzz6goc",
             "rules": {}
           },
-          "screen/.div--u-iy001r0rh": {
+          "screen/.div--u-ie22pi5gc": {
             "media": "screen",
-            "selectorText": ".div--u-iy001r0rh",
+            "selectorText": ".div--u-ie22pi5gc",
             "rules": {}
           },
-          "screen/.div--u-i57lgdskc": {
+          "screen/.div--u-ihwf0ll8q": {
             "media": "screen",
-            "selectorText": ".div--u-i57lgdskc",
+            "selectorText": ".div--u-ihwf0ll8q",
             "rules": {}
           },
-          "screen/.div--u-ik9h5uzma": {
+          "screen/.div--u-i83i0beyz": {
             "media": "screen",
-            "selectorText": ".div--u-ik9h5uzma",
+            "selectorText": ".div--u-i83i0beyz",
             "rules": {}
           },
-          "screen/.div--u-i8eol2w8w": {
+          "screen/.div--u-i6v1d31eu": {
             "media": "screen",
-            "selectorText": ".div--u-i8eol2w8w",
+            "selectorText": ".div--u-i6v1d31eu",
             "rules": {}
           },
-          "screen/.div--u-invvndfkw": {
+          "screen/.div--u-ilryb9ji1": {
             "media": "screen",
-            "selectorText": ".div--u-invvndfkw",
+            "selectorText": ".div--u-ilryb9ji1",
             "rules": {}
           },
-          "(max-width: 991px)/.div--u-iti6fell2": {
+          "(max-width: 991px)/.div--u-i3ii9i3xv": {
             "media": "(max-width: 991px)",
-            "selectorText": ".div--u-iti6fell2",
+            "selectorText": ".div--u-i3ii9i3xv",
             "rules": {
               "grid-template-columns": {
                 "name": "grid-template-columns",
@@ -3513,229 +3543,229 @@
       },
       "designClassNameCollection": {
         "map": {
-          "class_irz3p8s52": {
-            "id": "class_irz3p8s52",
-            "value": "div--u-i0vn85du2"
+          "class_iri1hf525": {
+            "id": "class_iri1hf525",
+            "value": "div--u-i1vzz6goc"
           },
-          "class_i121j3tcp": {
-            "id": "class_i121j3tcp",
-            "value": "div--u-i57lgdskc"
+          "class_iemffpkkt": {
+            "id": "class_iemffpkkt",
+            "value": "div--u-i3ii9i3xv"
           },
-          "class_ilr1lplwe": {
-            "id": "class_ilr1lplwe",
-            "value": "div--u-i5hbluqb8"
+          "class_iv19g60gf": {
+            "id": "class_iv19g60gf",
+            "value": "div--u-i4r5i35hh"
           },
-          "class_i6h6h8xz5": {
-            "id": "class_i6h6h8xz5",
-            "value": "div--u-i8eol2w8w"
+          "class_izvs2qxtg": {
+            "id": "class_izvs2qxtg",
+            "value": "div--u-i6v1d31eu"
           },
-          "class_iyct9bk8a": {
-            "id": "class_iyct9bk8a",
-            "value": "div--u-i9zvtqpdx"
+          "class_iuej7mggb": {
+            "id": "class_iuej7mggb",
+            "value": "div--u-i83i0beyz"
           },
-          "class_ijwsv9x06": {
-            "id": "class_ijwsv9x06",
-            "value": "div--u-ib32pkatr"
+          "class_ivnqahvwo": {
+            "id": "class_ivnqahvwo",
+            "value": "div--u-i92hy5erv"
           },
-          "class_ilp4crcxp": {
-            "id": "class_ilp4crcxp",
-            "value": "div--u-ibhyi34xg"
+          "class_ixe3nqj58": {
+            "id": "class_ixe3nqj58",
+            "value": "div--u-i95nd6e82"
           },
-          "class_ik8aqfja4": {
-            "id": "class_ik8aqfja4",
-            "value": "div--u-ibxbc30f7"
+          "class_i1c6vvxwu": {
+            "id": "class_i1c6vvxwu",
+            "value": "div--u-idu5hvfzy"
           },
-          "class_itgmh3pld": {
-            "id": "class_itgmh3pld",
-            "value": "div--u-icfvrb5i3"
+          "class_irrdy042l": {
+            "id": "class_irrdy042l",
+            "value": "div--u-ie22pi5gc"
           },
-          "class_im6fjhaiy": {
-            "id": "class_im6fjhaiy",
-            "value": "div--u-iejjmin0a"
+          "class_i5fh0mij3": {
+            "id": "class_i5fh0mij3",
+            "value": "div--u-igbxgv6ff"
           },
-          "class_i1mdrm0r8": {
-            "id": "class_i1mdrm0r8",
-            "value": "div--u-ietyux307"
+          "class_i6r55kpkx": {
+            "id": "class_i6r55kpkx",
+            "value": "div--u-ihwf0ll8q"
           },
-          "class_iu784b5fa": {
-            "id": "class_iu784b5fa",
-            "value": "div--u-ifdv1jasl"
+          "class_iu3zlgusv": {
+            "id": "class_iu3zlgusv",
+            "value": "div--u-ihxb89gqv"
           },
-          "class_ixx5w8gln": {
-            "id": "class_ixx5w8gln",
-            "value": "div--u-igsplc6gq"
+          "class_i5y3pr9es": {
+            "id": "class_i5y3pr9es",
+            "value": "div--u-iisv0f2j0"
           },
-          "class_iwit197fh": {
-            "id": "class_iwit197fh",
-            "value": "div--u-igur7pxux"
+          "class_iosm2ulqy": {
+            "id": "class_iosm2ulqy",
+            "value": "div--u-ij4stk9bc"
           },
-          "class_ibdr8zncw": {
-            "id": "class_ibdr8zncw",
-            "value": "div--u-ik9h5uzma"
+          "class_irhm47cxa": {
+            "id": "class_irhm47cxa",
+            "value": "div--u-ikfc0e89x"
           },
-          "class_iyprbt6ce": {
-            "id": "class_iyprbt6ce",
-            "value": "div--u-ikkwchgd8"
+          "class_iiw86yupv": {
+            "id": "class_iiw86yupv",
+            "value": "div--u-ilryb9ji1"
           },
-          "class_iqpjcot7o": {
-            "id": "class_iqpjcot7o",
-            "value": "div--u-il66112rp"
+          "class_isnoumnj8": {
+            "id": "class_isnoumnj8",
+            "value": "div--u-iqp1yheog"
           },
-          "class_izl67tl0h": {
-            "id": "class_izl67tl0h",
-            "value": "div--u-invvndfkw"
+          "class_ihazkyz6b": {
+            "id": "class_ihazkyz6b",
+            "value": "div--u-irafeb84c"
           },
-          "class_ib98u3zsy": {
-            "id": "class_ib98u3zsy",
-            "value": "div--u-inx3xtslh"
+          "class_ib0tcwpg6": {
+            "id": "class_ib0tcwpg6",
+            "value": "div--u-iu6berx5y"
           },
-          "class_ixj78qp7y": {
-            "id": "class_ixj78qp7y",
-            "value": "div--u-ioxucoy25"
+          "class_ildredrkr": {
+            "id": "class_ildredrkr",
+            "value": "div--u-iv4jishe9"
           },
-          "class_ifwirfash": {
-            "id": "class_ifwirfash",
-            "value": "div--u-iti6fell2"
+          "class_i1mnju3z8": {
+            "id": "class_i1mnju3z8",
+            "value": "div--u-iwxtat62v"
           },
-          "class_in99k6t3z": {
-            "id": "class_in99k6t3z",
-            "value": "div--u-iua1hmzit"
+          "class_ij08li7ft": {
+            "id": "class_ij08li7ft",
+            "value": "div--u-ixewoirgw"
           },
-          "class_idlu6839j": {
-            "id": "class_idlu6839j",
-            "value": "div--u-iy001r0rh"
+          "class_ihzg2lvvd": {
+            "id": "class_ihzg2lvvd",
+            "value": "div--u-iz9tb8nrm"
           },
-          "class_ihsz0fi59": {
-            "id": "class_ihsz0fi59",
-            "value": "link-block--u-i3unxt3ku"
+          "class_iokmoz5jq": {
+            "id": "class_iokmoz5jq",
+            "value": "link-block--u-i2pyd4rjt"
           },
-          "class_iyx1nvyqv": {
-            "id": "class_iyx1nvyqv",
-            "value": "link-block--u-i4db1r7gh"
+          "class_ioj6y54tc": {
+            "id": "class_ioj6y54tc",
+            "value": "link-block--u-ic2i76qi8"
           },
-          "class_itwz5regz": {
-            "id": "class_itwz5regz",
-            "value": "link-block--u-ihgepeeto"
+          "class_iwcp9jlwx": {
+            "id": "class_iwcp9jlwx",
+            "value": "link-block--u-iesv41i4v"
           },
-          "class_iaouodhi9": {
-            "id": "class_iaouodhi9",
-            "value": "link-block--u-isy9c6r8t"
+          "class_izb6bq4i5": {
+            "id": "class_izb6bq4i5",
+            "value": "link-block--u-igunptdnq"
           },
-          "class_ijo4wq1tq": {
-            "id": "class_ijo4wq1tq",
-            "value": "text--u-i6uhuuxxn"
+          "class_i7evvwzqa": {
+            "id": "class_i7evvwzqa",
+            "value": "text--u-i299yes2i"
           },
-          "class_i4mfur8xu": {
-            "id": "class_i4mfur8xu",
-            "value": "text--u-i8vrexbn5"
+          "class_ioc8r1ztt": {
+            "id": "class_ioc8r1ztt",
+            "value": "text--u-i3t4lwnan"
           },
-          "class_ifogu95fw": {
-            "id": "class_ifogu95fw",
-            "value": "text--u-iacwmtddm"
+          "class_i9oy0unu2": {
+            "id": "class_i9oy0unu2",
+            "value": "text--u-icirjjsic"
           },
-          "class_iwxvkipl4": {
-            "id": "class_iwxvkipl4",
-            "value": "text--u-ibfdjicw0"
+          "class_il80d6xdg": {
+            "id": "class_il80d6xdg",
+            "value": "text--u-ihl3xcyet"
           },
-          "class_ilznys91k": {
-            "id": "class_ilznys91k",
-            "value": "text--u-idunkodnp"
+          "class_i5am7bln8": {
+            "id": "class_i5am7bln8",
+            "value": "text--u-iiz7plcd3"
           },
-          "class_irgqvtfoh": {
-            "id": "class_irgqvtfoh",
-            "value": "text--u-ihr4jhfxn"
+          "class_idsvapjib": {
+            "id": "class_idsvapjib",
+            "value": "text--u-iliier9bu"
           },
-          "class_idwtvvwke": {
-            "id": "class_idwtvvwke",
-            "value": "text--u-iuja0yuc1"
+          "class_iphdc8n9a": {
+            "id": "class_iphdc8n9a",
+            "value": "text--u-isybrxxs6"
           },
-          "class_izqjzslng": {
-            "id": "class_izqjzslng",
-            "value": "text--u-iwtqatf1h"
+          "class_ihar955sy": {
+            "id": "class_ihar955sy",
+            "value": "text--u-iup876ale"
           }
         },
         "countMap": {
-          "div--u-i0vn85du2": 1,
-          "div--u-i57lgdskc": 1,
-          "div--u-i5hbluqb8": 1,
-          "div--u-i8eol2w8w": 1,
-          "div--u-i9zvtqpdx": 1,
-          "div--u-ib32pkatr": 1,
-          "div--u-ibhyi34xg": 1,
-          "div--u-ibxbc30f7": 1,
-          "div--u-icfvrb5i3": 1,
-          "div--u-iejjmin0a": 1,
-          "div--u-ietyux307": 1,
-          "div--u-ifdv1jasl": 1,
-          "div--u-igsplc6gq": 1,
-          "div--u-igur7pxux": 1,
-          "div--u-ik9h5uzma": 1,
-          "div--u-ikkwchgd8": 1,
-          "div--u-il66112rp": 1,
-          "div--u-invvndfkw": 1,
-          "div--u-inx3xtslh": 1,
-          "div--u-ioxucoy25": 1,
-          "div--u-iti6fell2": 1,
-          "div--u-iua1hmzit": 1,
-          "div--u-iy001r0rh": 1,
-          "link-block--u-i3unxt3ku": 1,
-          "link-block--u-i4db1r7gh": 1,
-          "link-block--u-ihgepeeto": 1,
-          "link-block--u-isy9c6r8t": 1,
-          "text--u-i6uhuuxxn": 1,
-          "text--u-i8vrexbn5": 1,
-          "text--u-iacwmtddm": 1,
-          "text--u-ibfdjicw0": 1,
-          "text--u-idunkodnp": 1,
-          "text--u-ihr4jhfxn": 1,
-          "text--u-iuja0yuc1": 1,
-          "text--u-iwtqatf1h": 1
+          "div--u-i1vzz6goc": 1,
+          "div--u-i3ii9i3xv": 1,
+          "div--u-i4r5i35hh": 1,
+          "div--u-i6v1d31eu": 1,
+          "div--u-i83i0beyz": 1,
+          "div--u-i92hy5erv": 1,
+          "div--u-i95nd6e82": 1,
+          "div--u-idu5hvfzy": 1,
+          "div--u-ie22pi5gc": 1,
+          "div--u-igbxgv6ff": 1,
+          "div--u-ihwf0ll8q": 1,
+          "div--u-ihxb89gqv": 1,
+          "div--u-iisv0f2j0": 1,
+          "div--u-ij4stk9bc": 1,
+          "div--u-ikfc0e89x": 1,
+          "div--u-ilryb9ji1": 1,
+          "div--u-iqp1yheog": 1,
+          "div--u-irafeb84c": 1,
+          "div--u-iu6berx5y": 1,
+          "div--u-iv4jishe9": 1,
+          "div--u-iwxtat62v": 1,
+          "div--u-ixewoirgw": 1,
+          "div--u-iz9tb8nrm": 1,
+          "link-block--u-i2pyd4rjt": 1,
+          "link-block--u-ic2i76qi8": 1,
+          "link-block--u-iesv41i4v": 1,
+          "link-block--u-igunptdnq": 1,
+          "text--u-i299yes2i": 1,
+          "text--u-i3t4lwnan": 1,
+          "text--u-icirjjsic": 1,
+          "text--u-ihl3xcyet": 1,
+          "text--u-iiz7plcd3": 1,
+          "text--u-iliier9bu": 1,
+          "text--u-isybrxxs6": 1,
+          "text--u-iup876ale": 1
         },
         "sortMap": {
-          "class_irz3p8s52": "class_i121j3tcp",
-          "class_i121j3tcp": "class_ilr1lplwe",
-          "class_ilr1lplwe": "class_i6h6h8xz5",
-          "class_i6h6h8xz5": "class_iyct9bk8a",
-          "class_iyct9bk8a": "class_ijwsv9x06",
-          "class_ijwsv9x06": "class_ilp4crcxp",
-          "class_ilp4crcxp": "class_ik8aqfja4",
-          "class_ik8aqfja4": "class_itgmh3pld",
-          "class_itgmh3pld": "class_im6fjhaiy",
-          "class_im6fjhaiy": "class_i1mdrm0r8",
-          "class_i1mdrm0r8": "class_iu784b5fa",
-          "class_iu784b5fa": "class_ixx5w8gln",
-          "class_ixx5w8gln": "class_iwit197fh",
-          "class_iwit197fh": "class_ibdr8zncw",
-          "class_ibdr8zncw": "class_iyprbt6ce",
-          "class_iyprbt6ce": "class_iqpjcot7o",
-          "class_iqpjcot7o": "class_izl67tl0h",
-          "class_izl67tl0h": "class_ib98u3zsy",
-          "class_ib98u3zsy": "class_ixj78qp7y",
-          "class_ixj78qp7y": "class_ifwirfash",
-          "class_ifwirfash": "class_in99k6t3z",
-          "class_in99k6t3z": "class_idlu6839j",
-          "class_idlu6839j": "class_ihsz0fi59",
-          "class_ihsz0fi59": "class_iyx1nvyqv",
-          "class_iyx1nvyqv": "class_itwz5regz",
-          "class_itwz5regz": "class_iaouodhi9",
-          "class_iaouodhi9": "class_ijo4wq1tq",
-          "class_ijo4wq1tq": "class_i4mfur8xu",
-          "class_i4mfur8xu": "class_ifogu95fw",
-          "class_ifogu95fw": "class_iwxvkipl4",
-          "class_iwxvkipl4": "class_ilznys91k",
-          "class_ilznys91k": "class_irgqvtfoh",
-          "class_irgqvtfoh": "class_idwtvvwke",
-          "class_idwtvvwke": "class_izqjzslng",
-          "class_izqjzslng": ""
+          "class_iri1hf525": "class_iemffpkkt",
+          "class_iemffpkkt": "class_iv19g60gf",
+          "class_iv19g60gf": "class_izvs2qxtg",
+          "class_izvs2qxtg": "class_iuej7mggb",
+          "class_iuej7mggb": "class_ivnqahvwo",
+          "class_ivnqahvwo": "class_ixe3nqj58",
+          "class_ixe3nqj58": "class_i1c6vvxwu",
+          "class_i1c6vvxwu": "class_irrdy042l",
+          "class_irrdy042l": "class_i5fh0mij3",
+          "class_i5fh0mij3": "class_i6r55kpkx",
+          "class_i6r55kpkx": "class_iu3zlgusv",
+          "class_iu3zlgusv": "class_i5y3pr9es",
+          "class_i5y3pr9es": "class_iosm2ulqy",
+          "class_iosm2ulqy": "class_irhm47cxa",
+          "class_irhm47cxa": "class_iiw86yupv",
+          "class_iiw86yupv": "class_isnoumnj8",
+          "class_isnoumnj8": "class_ihazkyz6b",
+          "class_ihazkyz6b": "class_ib0tcwpg6",
+          "class_ib0tcwpg6": "class_ildredrkr",
+          "class_ildredrkr": "class_i1mnju3z8",
+          "class_i1mnju3z8": "class_ij08li7ft",
+          "class_ij08li7ft": "class_ihzg2lvvd",
+          "class_ihzg2lvvd": "class_iokmoz5jq",
+          "class_iokmoz5jq": "class_ioj6y54tc",
+          "class_ioj6y54tc": "class_iwcp9jlwx",
+          "class_iwcp9jlwx": "class_izb6bq4i5",
+          "class_izb6bq4i5": "class_i7evvwzqa",
+          "class_i7evvwzqa": "class_ioc8r1ztt",
+          "class_ioc8r1ztt": "class_i9oy0unu2",
+          "class_i9oy0unu2": "class_il80d6xdg",
+          "class_il80d6xdg": "class_i5am7bln8",
+          "class_i5am7bln8": "class_idsvapjib",
+          "class_idsvapjib": "class_iphdc8n9a",
+          "class_iphdc8n9a": "class_ihar955sy",
+          "class_ihar955sy": ""
         },
         "head": {
-          "id": "class_irz3p8s52",
-          "value": "div--u-i0vn85du2"
+          "id": "class_iri1hf525",
+          "value": "div--u-i1vzz6goc"
         }
       }
     },
     "action": "copy",
-    "tagID": "iua1hmzit_0",
+    "tagID": "ixewoirgw_0",
     "isElementInCollection": false
   }
 }
