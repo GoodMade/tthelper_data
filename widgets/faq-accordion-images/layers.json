@@ -230,7 +230,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Планирование уроков по программе"
+                "value": "\u041f\u043b\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0443\u0440\u043e\u043a\u043e\u0432 \u043f\u043e \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435"
               }
             },
             "dataSource": "from_parent",
@@ -367,7 +367,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Расскажите, что преподаёте дальше — и помощник создаст полностью редактируемый структурированный план урока для любого уровня и экзаменационной программы."
+                "value": "\u0420\u0430\u0441\u0441\u043a\u0430\u0436\u0438\u0442\u0435, \u0447\u0442\u043e \u043f\u0440\u0435\u043f\u043e\u0434\u0430\u0451\u0442\u0435 \u0434\u0430\u043b\u044c\u0448\u0435 \u2014 \u0438 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a \u0441\u043e\u0437\u0434\u0430\u0441\u0442 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u0443\u0435\u043c\u044b\u0439 \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043f\u043b\u0430\u043d \u0443\u0440\u043e\u043a\u0430 \u0434\u043b\u044f \u043b\u044e\u0431\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f \u0438 \u044d\u043a\u0437\u0430\u043c\u0435\u043d\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b."
               }
             },
             "dataSource": "from_parent",
@@ -556,7 +556,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Интегрированные конспекты уроков"
+                "value": "\u0418\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043a\u043e\u043d\u0441\u043f\u0435\u043a\u0442\u044b \u0443\u0440\u043e\u043a\u043e\u0432"
               }
             },
             "dataSource": "from_parent",
@@ -693,7 +693,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Автоматически формирует краткие конспекты по каждому уроку, выделяет цели, ресурсы и дополнительные материалы для чтения."
+                "value": "\u0410\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0444\u043e\u0440\u043c\u0438\u0440\u0443\u0435\u0442 \u043a\u0440\u0430\u0442\u043a\u0438\u0435 \u043a\u043e\u043d\u0441\u043f\u0435\u043a\u0442\u044b \u043f\u043e \u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u0443\u0440\u043e\u043a\u0443, \u0432\u044b\u0434\u0435\u043b\u044f\u0435\u0442 \u0446\u0435\u043b\u0438, \u0440\u0435\u0441\u0443\u0440\u0441\u044b \u0438 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u0434\u043b\u044f \u0447\u0442\u0435\u043d\u0438\u044f."
               }
             },
             "dataSource": "from_parent",
@@ -882,7 +882,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Отчёты для родителей"
+                "value": "\u041e\u0442\u0447\u0451\u0442\u044b \u0434\u043b\u044f \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u0435\u0439"
               }
             },
             "dataSource": "from_parent",
@@ -1019,7 +1019,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Готовит понятные отчёты об успеваемости, которые можно сразу отправить родителям без дополнительной обработки."
+                "value": "\u0413\u043e\u0442\u043e\u0432\u0438\u0442 \u043f\u043e\u043d\u044f\u0442\u043d\u044b\u0435 \u043e\u0442\u0447\u0451\u0442\u044b \u043e\u0431 \u0443\u0441\u043f\u0435\u0432\u0430\u0435\u043c\u043e\u0441\u0442\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0436\u043d\u043e \u0441\u0440\u0430\u0437\u0443 \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0440\u043e\u0434\u0438\u0442\u0435\u043b\u044f\u043c \u0431\u0435\u0437 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0438."
               }
             },
             "dataSource": "from_parent",
@@ -1208,7 +1208,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Улучшение на основе данных"
+                "value": "\u0423\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u0435 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u0434\u0430\u043d\u043d\u044b\u0445"
               }
             },
             "dataSource": "from_parent",
@@ -1345,7 +1345,7 @@
             "data": {
               "text": {
                 "type": "HTML",
-                "value": "Анализирует результаты и подсказывает, что скорректировать в следующих уроках, опираясь на реальные данные об успеваемости."
+                "value": "\u0410\u043d\u0430\u043b\u0438\u0437\u0438\u0440\u0443\u0435\u0442 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0438 \u043f\u043e\u0434\u0441\u043a\u0430\u0437\u044b\u0432\u0430\u0435\u0442, \u0447\u0442\u043e \u0441\u043a\u043e\u0440\u0440\u0435\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0445 \u0443\u0440\u043e\u043a\u0430\u0445, \u043e\u043f\u0438\u0440\u0430\u044f\u0441\u044c \u043d\u0430 \u0440\u0435\u0430\u043b\u044c\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043e\u0431 \u0443\u0441\u043f\u0435\u0432\u0430\u0435\u043c\u043e\u0441\u0442\u0438."
               }
             },
             "dataSource": "from_parent",
@@ -1885,244 +1885,6 @@
       },
       "mainSelectorCollection": {
         "map": {
-          "screen/.div": {
-            "media": "screen",
-            "selectorText": ".div",
-            "rules": {
-              "width": {
-                "name": "width",
-                "value": "100%",
-                "isCustom": false,
-                "serializeValue": "100%",
-                "number": 100,
-                "unit": "%"
-              },
-              "position": {
-                "name": "position",
-                "value": "relative",
-                "isCustom": false,
-                "serializeValue": "relative"
-              }
-            }
-          },
-          "screen/.text": {
-            "media": "screen",
-            "selectorText": ".text",
-            "rules": {
-              "display": {
-                "name": "display",
-                "value": "inline-flex",
-                "isCustom": false,
-                "serializeValue": "inline-flex"
-              },
-              "vertical-align": {
-                "name": "vertical-align",
-                "value": "top",
-                "isCustom": false,
-                "serializeValue": "top"
-              },
-              "position": {
-                "name": "position",
-                "value": "relative",
-                "isCustom": false,
-                "serializeValue": "relative"
-              },
-              "margin-top": {
-                "name": "margin-top",
-                "value": "0px",
-                "isCustom": false,
-                "serializeValue": "0px",
-                "number": 0,
-                "unit": "px"
-              },
-              "margin-right": {
-                "name": "margin-right",
-                "value": "0px",
-                "isCustom": false,
-                "serializeValue": "0px",
-                "number": 0,
-                "unit": "px"
-              },
-              "margin-bottom": {
-                "name": "margin-bottom",
-                "value": "0px",
-                "isCustom": false,
-                "serializeValue": "0px",
-                "number": 0,
-                "unit": "px"
-              },
-              "margin-left": {
-                "name": "margin-left",
-                "value": "0px",
-                "isCustom": false,
-                "serializeValue": "0px",
-                "number": 0,
-                "unit": "px"
-              }
-            }
-          },
-          "screen/.svg-icon": {
-            "media": "screen",
-            "selectorText": ".svg-icon",
-            "rules": {
-              "position": {
-                "name": "position",
-                "value": "relative",
-                "isCustom": false,
-                "serializeValue": "relative"
-              },
-              "display": {
-                "name": "display",
-                "value": "inline-flex",
-                "isCustom": false,
-                "serializeValue": "inline-flex"
-              },
-              "justify-content": {
-                "name": "justify-content",
-                "value": "center",
-                "isCustom": false,
-                "serializeValue": "center"
-              },
-              "align-items": {
-                "name": "align-items",
-                "value": "center",
-                "isCustom": false,
-                "serializeValue": "center"
-              },
-              "height": {
-                "name": "height",
-                "value": "32px",
-                "isCustom": false,
-                "serializeValue": "32px",
-                "number": 32,
-                "unit": "px"
-              },
-              "width": {
-                "name": "width",
-                "value": "32px",
-                "isCustom": false,
-                "serializeValue": "32px",
-                "number": 32,
-                "unit": "px"
-              },
-              "overflow-x": {
-                "name": "overflow-x",
-                "value": "hidden",
-                "isCustom": false,
-                "serializeValue": "hidden"
-              },
-              "overflow-y": {
-                "name": "overflow-y",
-                "value": "hidden",
-                "isCustom": false,
-                "serializeValue": "hidden"
-              }
-            }
-          },
-          "screen/.link-block": {
-            "media": "screen",
-            "selectorText": ".link-block",
-            "rules": {
-              "display": {
-                "name": "display",
-                "value": "inline-flex",
-                "isCustom": false,
-                "serializeValue": "inline-flex"
-              },
-              "cursor": {
-                "name": "cursor",
-                "value": "pointer",
-                "isCustom": false,
-                "serializeValue": "pointer"
-              },
-              "text-decoration-line": {
-                "name": "text-decoration-line",
-                "value": "none",
-                "isCustom": false,
-                "serializeValue": "none"
-              }
-            }
-          },
-          "screen/.image": {
-            "media": "screen",
-            "selectorText": ".image",
-            "rules": {
-              "position": {
-                "name": "position",
-                "value": "relative",
-                "isCustom": false,
-                "serializeValue": "relative"
-              },
-              "display": {
-                "name": "display",
-                "value": "inline-flex",
-                "isCustom": false,
-                "serializeValue": "inline-flex"
-              },
-              "vertical-align": {
-                "name": "vertical-align",
-                "value": "top",
-                "isCustom": false,
-                "serializeValue": "top"
-              },
-              "overflow-x": {
-                "name": "overflow-x",
-                "value": "hidden",
-                "isCustom": false,
-                "serializeValue": "hidden"
-              },
-              "overflow-y": {
-                "name": "overflow-y",
-                "value": "hidden",
-                "isCustom": false,
-                "serializeValue": "hidden"
-              },
-              "width": {
-                "name": "width",
-                "value": "100px",
-                "isCustom": false,
-                "serializeValue": "100px",
-                "number": 100,
-                "unit": "px"
-              },
-              "height": {
-                "name": "height",
-                "value": "100px",
-                "isCustom": false,
-                "serializeValue": "100px",
-                "number": 100,
-                "unit": "px"
-              }
-            }
-          },
-          "screen/.image__img": {
-            "media": "screen",
-            "selectorText": ".image__img",
-            "rules": {
-              "object-fit": {
-                "name": "object-fit",
-                "value": "cover",
-                "isCustom": false,
-                "serializeValue": "cover"
-              },
-              "width": {
-                "name": "width",
-                "value": "100%",
-                "isCustom": false,
-                "serializeValue": "100%",
-                "number": 100,
-                "unit": "%"
-              },
-              "height": {
-                "name": "height",
-                "value": "100%",
-                "isCustom": false,
-                "serializeValue": "100%",
-                "number": 100,
-                "unit": "%"
-              }
-            }
-          },
           "screen/.th-faq__panel": {
             "media": "screen",
             "selectorText": ".th-faq__panel",
