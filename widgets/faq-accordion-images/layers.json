@@ -3049,6 +3049,18 @@
                 "unit": "px"
               }
             }
+          },
+          "class_helperdnone_custom": {
+            "media": "screen",
+            "selectorText": ".helper--d-none",
+            "rules": {
+              "display": {
+                "name": "display",
+                "value": "none",
+                "isCustom": false,
+                "serializeValue": "none"
+              }
+            }
           }
         }
       },
